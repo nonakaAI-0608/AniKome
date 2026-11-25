@@ -9,7 +9,7 @@ v4のsettings.jsonを新しいフォルダへコピーすれば設定を引き�
 設定と操作
 1. コメント取得に成功したnndownload-master直下のnndownload.pyを指定。
    requirements.txtと同じ階層のファイルです。
-2. NicoConvAss.exeを指定。
+2. NicoConvAss.exeを指定（入手先：https://vb45wb5b.seesaa.net/#nicoconvass）。
 3. 「ASS保存先・動画名の参照フォルダ」に動画のあるフォルダを指定。
    サブフォルダも照合し、ASSは各動画と同じフォルダへ同じ名前で保存します。
 4. Firefoxでニコニコにログインしておきます。

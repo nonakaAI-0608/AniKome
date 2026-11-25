@@ -9,7 +9,7 @@
 - Windows 10 / 11
 - [uv](https://docs.astral.sh/uv/)（Python 3.11 と tkinterdnd2 を自動で用意します）
 - [nndownload](https://github.com/AlexAplin/nndownload)（コメント取得）
-- NicoConvAss（コメント XML → ASS 変換。Windows 用フリーソフト）
+- [NicoConvAss](https://vb45wb5b.seesaa.net/#nicoconvass)（コメント XML → ASS 変換。Windows 用フリーソフト）
 - Firefox（ニコニコにログインしておく）
 
 ## インストール
@@ -20,7 +20,7 @@
    ```
 3. nndownload を GitHub から ZIP でダウンロードして任意のフォルダに展開します。
    依存ライブラリ（nndownload の `requirements.txt`）は、コメント取得時に uv が自動で用意します。
-4. NicoConvAss を入手して任意のフォルダに展開します。
+4. NicoConvAss を https://vb45wb5b.seesaa.net/#nicoconvass からダウンロードし、任意のフォルダに展開します。
 5. `起動.vbs` をダブルクリックして起動します（コンソールは表示しません。失敗時は `startup.log` を確認）。
 6. 初回は画面上で次の3つを指定します（`settings.json` に保存されます）。
    - nndownload の `nndownload.py`

@@ -3,4 +3,4 @@ tkinterdnd2>=0.4,<1
 
 # 外部ツール（同梱していません。README.md を参照）
 #   nndownload  : https://github.com/AlexAplin/nndownload  （その requirements.txt は uv が自動で用意）
-#   NicoConvAss : ニコニコのコメントを ASS 字幕に変換する Windows 用フリーソフト
+#   NicoConvAss : https://vb45wb5b.seesaa.net/#nicoconvass  （コメントを ASS 字幕に変換する Windows 用フリーソフト）

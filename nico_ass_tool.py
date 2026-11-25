@@ -292,7 +292,7 @@ class App(TkinterDnD.Tk if TkinterDnD else tk.Tk):
         settings.columnconfigure(1, weight=1)
         self.only_so = tk.BooleanVar(value=config.get('only_so', False))
         self.include_danime = tk.BooleanVar(value=config.get('include_danime', False))
-        self.max_comments = tk.StringVar(value=str(config.get('download_limit', '1000')))
+        self.max_comments = tk.StringVar(value=str(config.get('download_limit', '2000')))
         self.resolution = tk.StringVar(value=config.get('resolution', '1080p'))
         self.semi = tk.BooleanVar(value=config.get('semi', False))
         options = ttk.Frame(frame)
