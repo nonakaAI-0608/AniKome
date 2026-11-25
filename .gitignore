@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# ログ・一時ファイル
+*.log
+*.tmp
+
+# 個人設定・作業データ
+settings.json
+work/
+
+# 外部ツール（各自でダウンロード）
+nndownload-master/
+nndownload/
+NicoConvAss*/
