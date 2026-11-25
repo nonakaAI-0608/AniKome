@@ -24,7 +24,7 @@ APP = Path(__file__).resolve().parent
 CONFIG = APP / 'settings.json'
 API = 'https://snapshot.search.nicovideo.jp/api/v2/snapshot/video/contents/search'
 DANIME_CHANNEL_ID = '2632720'
-HEADERS = {'User-Agent': 'NicoAssTool/1.0 (personal desktop application)'}
+HEADERS = {'User-Agent': 'AniKome/1.0 (desktop application)'}
 ID_RE = re.compile(r'^(?:sm|nm|so|ax|ca|yo|za|lv)\d+$', re.I)
 
 
@@ -262,7 +262,7 @@ def convert(video_id, title, settings, log, target_video, cancel=None, progress=
 class App(TkinterDnD.Tk if TkinterDnD else tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('ニコニコ コメント保存 v5 — ASS・リネーム')
+        self.title('アニコメ v5 — ニコニコのコメントをASSで保存')
         self.geometry('1060x830')
         self.rows = {}
         self.offset = 0
